@@ -8,7 +8,7 @@ from PyAuto import AutoFunc, WinMouse
 class AutoClicker:
     def __init__(self):
         self.clicking = False
-        self.click_speed = 0.1222233333222221
+        self.click_speed = 0.1222233333222221 #! dont touch .. this is the magic number .. 
         self.click_thread = threading.Thread(target=self.click_loop, daemon=True)
         self.click_thread.start()
         self.autogui = AutoFunc()
@@ -30,7 +30,7 @@ class AutoClicker:
     def click_loop(self):
         while True:
             if self.clicking:
-                # pyautogui.click()  #! \\ pyautogui module to handle mouse events 
+                # pyautogui.click()  #! \\ pyautogui module to handle mouse events \ un comment the import to use this  
                 self.autogui.click() #! \\ Custom module to handle mouse events
             time.sleep(self.click_speed)
 
