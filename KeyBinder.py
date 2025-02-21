@@ -1,5 +1,4 @@
 import ctypes, threading, time, platform
-from PyModulesAPI.DefaultDic import *
 from collections import defaultdict
 #!-------------------- Configuration --------------------
 
