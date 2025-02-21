@@ -3,6 +3,8 @@
 
 This Python module provides a simple way to manage keybinds (keyboard shortcuts) with customizable actions and cooldowns. The `KeybindManager` class allows you to register, unregister, and monitor key combinations for specific actions, which can be executed when the keys are pressed. This module is designed for Windows and uses `ctypes` to interact with the system.
 
+---
+
 ## Features
 - Register key combinations with customizable actions.
 - Handle both one-time presses and continuous key states with cooldown management.
@@ -10,12 +12,12 @@ This Python module provides a simple way to manage keybinds (keyboard shortcuts)
 - Easy integration with your existing Python projects.
 - Support for common system keys (e.g., `Ctrl`, `Shift`, `Alt`, `Enter`).
 
+---
+
 ## Installation
 To use this module, simply clone or download it into your project directory and import the relevant functions and classes.
 
-```bash
-git clone https://github.com/yourusername/keybind-manager.git
-```
+---
 
 ## Usage
 
@@ -24,7 +26,7 @@ To register a hotkey, use the `register_hotkey` function. You can specify multip
 
 ```python
 import time
-from keybind_manager import register_hotkey, start_listening
+from PyKeyBinder import register_hotkey, start_listening
 
 # Define an action
 def example_action():
@@ -44,7 +46,7 @@ time.sleep(10)  # You can adjust the duration to keep listening for hotkeys.
 If you need to remove a keybind, use the `unregister_hotkey` function with the key combination you wish to remove.
 
 ```python
-from keybind_manager import unregister_hotkey
+from PyKeyBinder import unregister_hotkey
 
 # Unregister the previous hotkey
 unregister_hotkey("ctrl+shift+a")
@@ -56,7 +58,7 @@ To begin monitoring the keyboard input, use the `start_listening` function. The 
 To stop listening and clean up the listener thread, use the `stop_listening` function.
 
 ```python
-from keybind_manager import start_listening, stop_listening
+from PyKeyBinder import start_listening, stop_listening
 
 # Start the keybind listener
 start_listening()
@@ -99,7 +101,7 @@ Here is a complete example that demonstrates registering keybinds, handling key 
 
 ```python
 import time
-from keybind_manager import register_hotkey, start_listening, stop_listening
+from PyKeyBinder import register_hotkey, start_listening, stop_listening
 
 # Define actions
 def play_pause_action():
