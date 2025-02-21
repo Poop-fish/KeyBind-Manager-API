@@ -1,4 +1,4 @@
-# Python module that allows you to programmatically control the mouse and keyboard. It is commonly used for:
+# Python module that allows you to programmatically control the mouse and keyboard. It is commonly used for
 # Automating GUI interactions (e.g., clicking, typing, dragging).
 
 import ctypes
