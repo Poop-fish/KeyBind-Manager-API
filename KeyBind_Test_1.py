@@ -1,8 +1,8 @@
 import threading
 import time
 from queue import Queue
-from PyKeyBinderAPI.KeyBinder import register_hotkey, unregister_hotkey, start_listening, stop_listening
-from PyKeyBinderAPI.PyAuto import AutoFunc, WinMouse
+from KeyBinder import register_hotkey, unregister_hotkey, start_listening, stop_listening
+from PyAuto import AutoFunc, WinMouse
 
 class AutoClicker:
     def __init__(self):
