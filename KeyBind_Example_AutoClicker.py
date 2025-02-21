@@ -11,7 +11,7 @@ class AutoClicker:
         self.click_speed = 0.1222233333222221 #! dont touch .. this is the magic number .. 
         self.click_thread = threading.Thread(target=self.click_loop, daemon=True)
         self.click_thread.start()
-        self.autogui = AutoFunc()
+        self.autogui = AutoFunc() #! \\ Custom module to handle mouse events
         
         # \\ Register key binds
         # register_hotkey("ctrl+q", self.toggle_clicking, press_callback=True)
