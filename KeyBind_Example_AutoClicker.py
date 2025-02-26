@@ -1,6 +1,6 @@
 import threading
 import time 
-# import pyautogui
+# import pyautogui #\\ If you use this import , you will need to install the pip 
 
 from PyKeyBinder import register_hotkey, unregister_hotkey, start_listening, stop_listening
 from PyAuto import AutoFunc, WinMouse
