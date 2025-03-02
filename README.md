@@ -1,4 +1,7 @@
-
+  <!-- Player Character -->
+  <div style="position: absolute; bottom: 20px; left: 50px; animation: jump 1.5s ease-in-out infinite;">
+    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/1.gif" height="50" style="image-rendering: pixelated;">
+  </div>
 # Python Keybind Module 
 
 ---
