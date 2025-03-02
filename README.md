@@ -1,11 +1,3 @@
-<div align="center">
-  <img height="150" src="https://media.giphy.com/media/SS8CV2rQdlYNLtBCiF/giphy.gif" alt="Cyber Grid">
-  <img height="150" src="https://media.giphy.com/media/KAq5w47R9rmTuvWOWa/giphy.gif" alt="Python Logo"> 
-  <img height="150" src="https://media.giphy.com/media/VbnUQpnihPSIgIXuZv/giphy.gif" alt="Neon Tech">
-</div>
-
-###
-
 # Python Keybind Module 
 
 ---
