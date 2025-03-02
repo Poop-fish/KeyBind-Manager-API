@@ -1,7 +1,11 @@
-  <!-- Player Character -->
-  <div style="position: absolute; bottom: 20px; left: 50px; animation: jump 1.5s ease-in-out infinite;">
-    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/1.gif" height="50" style="image-rendering: pixelated;">
-  </div>
+<div align="center">
+  <img height="150" src="https://media.giphy.com/media/SS8CV2rQdlYNLtBCiF/giphy.gif" alt="Cyber Grid">
+  <img height="150" src="https://media.giphy.com/media/KAq5w47R9rmTuvWOWa/giphy.gif" alt="Python Logo"> 
+  <img height="150" src="https://media.giphy.com/media/VbnUQpnihPSIgIXuZv/giphy.gif" alt="Neon Tech">
+</div>
+
+###
+
 # Python Keybind Module 
 
 ---
