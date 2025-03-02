@@ -2,7 +2,7 @@
 
 ---
 
-This Python module provides a simple way to manage keybinds (keyboard shortcuts) with customizable actions and cooldowns. The `KeybindManager` class allows you to register, unregister, and monitor key combinations for specific actions, which can be executed when the keys are pressed. This module is designed for Windows and uses `ctypes` to interact with the system.
+This module provides a simple way to manage keybinds (keyboard shortcuts) with customizable actions and cooldowns. The `KeybindManager` class allows you to register, unregister, and monitor key combinations for specific actions, which can be executed when the keys are pressed. This module is designed for Windows and uses `ctypes` to interact with the system.
 
 ---
 
